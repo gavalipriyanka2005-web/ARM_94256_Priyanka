@@ -1,0 +1,10 @@
+11:49:46 **** Incremental Build of configuration Debug for project Edge_selection.c ****
+make -j12 all 
+arm-none-eabi-size  Edge_selection.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1404	      4	   1564	   2972	    b9c	Edge_selection.c.elf
+Finished building: default.size.stdout
+ 
+
+11:49:46 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

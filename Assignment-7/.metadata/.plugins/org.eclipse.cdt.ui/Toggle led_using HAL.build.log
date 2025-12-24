@@ -1,0 +1,10 @@
+22:37:09 **** Incremental Build of configuration Debug for project Toggle led_using HAL ****
+make -j12 all 
+arm-none-eabi-size  Toggle\ led_using\ HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6108	     12	   1572	   7692	   1e0c	Toggle led_using HAL.elf
+Finished building: default.size.stdout
+ 
+
+22:37:09 Build Finished. 0 errors, 0 warnings. (took 209ms)
+
