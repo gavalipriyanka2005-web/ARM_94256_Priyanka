@@ -1,0 +1,78 @@
+!SESSION 2025-12-24 12:07:03.537 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-24 12:07:26.892
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-24 12:07:26.892
+!MESSAGE Log4j2 initialized with config file E:\Sunbeam Data\ARM_94256_Priyanka\Assignment-8\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-24 12:07:29.928
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-24 12:11:24.281
+!MESSAGE Indexed 'UART_String_Receive_PollingMode' (19 sources, 81 headers) in 2.33 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-24 12:26:41.276
+!MESSAGE Indexed 'UART_String_Receive_PollingMode' (20 sources, 85 headers) in 0.65 sec: 5,121 declarations; 22,652 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+!SESSION 2025-12-24 14:17:53.555 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-24 14:18:02.795
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-24 14:18:02.797
+!MESSAGE Log4j2 initialized with config file E:\Sunbeam Data\ARM_94256_Priyanka\Assignment-8\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-24 14:18:09.328
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-24 18:31:41.010 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-24 18:31:51.658
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-24 18:31:51.658
+!MESSAGE Log4j2 initialized with config file E:\Sunbeam Data\ARM_94256_Priyanka\Assignment-8\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-24 18:31:58.968
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-24 19:24:05.532
+!MESSAGE Indexed 'UART String_Plling Mode' (19 sources, 81 headers) in 2.96 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-24 21:05:31.367
+!MESSAGE Indexed 'UART String_Plling Mode' (20 sources, 85 headers) in 0.841 sec: 5,124 declarations; 22,663 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+!SESSION 2025-12-25 10:48:20.431 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-25 10:48:48.653
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-25 10:48:48.659
+!MESSAGE Log4j2 initialized with config file E:\Sunbeam Data\ARM_94256_Priyanka\Assignment-8\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-25 10:48:55.662
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 10:50:29.340
+!MESSAGE Indexed 'Command Based_LED_Using USART' (19 sources, 81 headers) in 3.34 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 10:54:58.316
+!MESSAGE Indexed 'Command Based_LED_Using USART' (20 sources, 85 headers) in 0.957 sec: 5,127 declarations; 22,774 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)

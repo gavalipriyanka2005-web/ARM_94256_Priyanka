@@ -1,0 +1,10 @@
+21:08:25 **** Incremental Build of configuration Debug for project UART_String_Receive_PollingMode ****
+make -j12 all 
+arm-none-eabi-size  UART_String_Receive_PollingMode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8760	     12	   1748	  10520	   2918	UART_String_Receive_PollingMode.elf
+Finished building: default.size.stdout
+ 
+
+21:08:26 Build Finished. 0 errors, 0 warnings. (took 569ms)
+
