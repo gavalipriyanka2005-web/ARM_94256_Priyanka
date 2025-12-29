@@ -1,0 +1,10 @@
+11:45:06 **** Incremental Build of configuration Debug for project Cursor Position Control_Using LCD ****
+make -j12 all 
+arm-none-eabi-size  Cursor\ Position\ Control_Using\ LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9724	     12	   1660	  11396	   2c84	Cursor Position Control_Using LCD.elf
+Finished building: default.size.stdout
+ 
+
+11:45:06 Build Finished. 0 errors, 0 warnings. (took 194ms)
+

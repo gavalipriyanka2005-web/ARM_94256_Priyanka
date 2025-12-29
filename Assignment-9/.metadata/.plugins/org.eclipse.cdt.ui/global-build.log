@@ -1,0 +1,14 @@
+10:39:39 **** Incremental Build of configuration Debug for project Numeric Counter Display_Using LCD ****
+make -j12 all 
+arm-none-eabi-size  Numeric\ Counter\ Display_Using\ LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9712	     12	   1660	  11384	   2c78	Numeric Counter Display_Using LCD.elf
+Finished building: default.size.stdout
+ 
+10:39:42 **** Incremental Build of configuration Debug for project Numeric Counter Display_Using LCD ****
+make -j12 all 
+arm-none-eabi-size  Numeric\ Counter\ Display_Using\ LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9712	     12	   1660	  11384	   2c78	Numeric Counter Display_Using LCD.elf
+Finished building: default.size.stdout
+ 
