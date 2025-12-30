@@ -7,19 +7,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         00002438  08000188  08000188  00001188  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       0000002c  080025c0  080025c0  000035c0  2**2
+  2 .rodata       00000028  080025c0  080025c0  000035c0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .ARM.extab    00000000  080025ec  080025ec  0000400c  2**0
+  3 .ARM.extab    00000000  080025e8  080025e8  0000400c  2**0
                   CONTENTS, READONLY
-  4 .ARM          00000008  080025ec  080025ec  000035ec  2**2
+  4 .ARM          00000008  080025e8  080025e8  000035e8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  5 .preinit_array 00000000  080025f4  080025f4  0000400c  2**0
+  5 .preinit_array 00000000  080025f0  080025f0  0000400c  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .init_array   00000004  080025f4  080025f4  000035f4  2**2
+  6 .init_array   00000004  080025f0  080025f0  000035f0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  7 .fini_array   00000004  080025f8  080025f8  000035f8  2**2
+  7 .fini_array   00000004  080025f4  080025f4  000035f4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  8 .data         0000000c  20000000  080025fc  00004000  2**2
+  8 .data         0000000c  20000000  080025f8  00004000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
   9 .ccmram       00000000  10000000  10000000  0000400c  2**0
                   CONTENTS
@@ -37,17 +37,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_rnglists 00000570  00000000  00000000  0000c828  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_macro  000200fa  00000000  00000000  0000cd98  2**0
+ 17 .debug_macro  0001f622  00000000  00000000  0000cd98  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   000094fa  00000000  00000000  0002ce92  2**0
+ 18 .debug_line   000094fa  00000000  00000000  0002c3ba  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    000c290e  00000000  00000000  0003638c  2**0
+ 19 .debug_str    000c290e  00000000  00000000  000358b4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000043  00000000  00000000  000f8c9a  2**0
+ 20 .comment      00000043  00000000  00000000  000f81c2  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  00001c90  00000000  00000000  000f8ce0  2**2
+ 21 .debug_frame  00001c90  00000000  00000000  000f8208  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 00000070  00000000  00000000  000fa970  2**0
+ 22 .debug_line_str 00000070  00000000  00000000  000f9e98  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -429,14 +429,14 @@ int main(void)
  8000522:	2100      	movs	r1, #0
  8000524:	2000      	movs	r0, #0
  8000526:	f000 f989 	bl	800083c <lcd16x2_i2c_setCursor>
-        lcd16x2_i2c_printf("WELCOME");
+        lcd16x2_i2c_printf("Welcome");
  800052a:	4807      	ldr	r0, [pc, #28]	@ (8000548 <main+0x54>)
  800052c:	f000 f9af 	bl	800088e <lcd16x2_i2c_printf>
         lcd16x2_i2c_setCursor(1,0);   // Row 0, Col 0
  8000530:	2100      	movs	r1, #0
  8000532:	2001      	movs	r0, #1
  8000534:	f000 f982 	bl	800083c <lcd16x2_i2c_setCursor>
-        lcd16x2_i2c_printf("STM32 LCD");
+        lcd16x2_i2c_printf("Sunbeam");
  8000538:	4804      	ldr	r0, [pc, #16]	@ (800054c <main+0x58>)
  800053a:	f000 f9a8 	bl	800088e <lcd16x2_i2c_printf>
 
@@ -1565,7 +1565,7 @@ LoopFillZerobss:
   ldr r1, =_edata
  8000a6c:	2000000c 	.word	0x2000000c
   ldr r2, =_sidata
- 8000a70:	080025fc 	.word	0x080025fc
+ 8000a70:	080025f8 	.word	0x080025f8
   ldr r2, =_sbss
  8000a74:	2000000c 	.word	0x2000000c
   ldr r4, =_ebss
@@ -5762,7 +5762,7 @@ HAL_StatusTypeDef HAL_RCC_ClockConfig(const RCC_ClkInitTypeDef  *RCC_ClkInitStru
  80022ee:	bf00      	nop
  80022f0:	40023c00 	.word	0x40023c00
  80022f4:	40023800 	.word	0x40023800
- 80022f8:	080025d4 	.word	0x080025d4
+ 80022f8:	080025d0 	.word	0x080025d0
  80022fc:	20000000 	.word	0x20000000
  8002300:	20000004 	.word	0x20000004
 
@@ -6066,7 +6066,7 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
  8002544:	4618      	mov	r0, r3
  8002546:	bd80      	pop	{r7, pc}
  8002548:	40023800 	.word	0x40023800
- 800254c:	080025e4 	.word	0x080025e4
+ 800254c:	080025e0 	.word	0x080025e0
 
 08002550 <memset>:
  8002550:	4402      	add	r2, r0
@@ -6103,10 +6103,10 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
  8002592:	4798      	blx	r3
  8002594:	3601      	adds	r6, #1
  8002596:	e7f2      	b.n	800257e <__libc_init_array+0x1e>
- 8002598:	080025f4 	.word	0x080025f4
- 800259c:	080025f4 	.word	0x080025f4
- 80025a0:	080025f4 	.word	0x080025f4
- 80025a4:	080025f8 	.word	0x080025f8
+ 8002598:	080025f0 	.word	0x080025f0
+ 800259c:	080025f0 	.word	0x080025f0
+ 80025a0:	080025f0 	.word	0x080025f0
+ 80025a4:	080025f4 	.word	0x080025f4
 
 080025a8 <_init>:
  80025a8:	b5f8      	push	{r3, r4, r5, r6, r7, lr}

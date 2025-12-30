@@ -49,6 +49,11 @@
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
+{
+	GPIO_InitTypeDef GPIO_InitStruct = {0};
+	HAL_RCC_GPIOA_Clk_ENABLE();
+	GPIO_InitStruct.Pin = GPIO_PIN_0;
+}
 
 /* USER CODE END PFP */
 

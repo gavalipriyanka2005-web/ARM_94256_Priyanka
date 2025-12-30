@@ -1,10 +1,10 @@
-11:32:11 **** Incremental Build of configuration Debug for project Basic_LCD_Display ****
+22:31:41 **** Incremental Build of configuration Debug for project Basic_LCD_Display ****
 make -j12 all 
 arm-none-eabi-size  Basic_LCD_Display.elf 
    text	   data	    bss	    dec	    hex	filename
-   9724	     12	   1660	  11396	   2c84	Basic_LCD_Display.elf
+   9720	     12	   1660	  11392	   2c80	Basic_LCD_Display.elf
 Finished building: default.size.stdout
  
 
-11:32:11 Build Finished. 0 errors, 0 warnings. (took 216ms)
+22:31:41 Build Finished. 0 errors, 0 warnings. (took 218ms)
 

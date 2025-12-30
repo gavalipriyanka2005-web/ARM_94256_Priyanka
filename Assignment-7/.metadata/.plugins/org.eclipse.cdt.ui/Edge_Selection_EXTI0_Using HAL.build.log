@@ -1,0 +1,10 @@
+20:00:17 **** Incremental Build of configuration Debug for project Edge_Selection_EXTI0_Using HAL ****
+make -j12 all 
+arm-none-eabi-size  Edge_Selection_EXTI0_Using\ HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6296	     12	   1572	   7880	   1ec8	Edge_Selection_EXTI0_Using HAL.elf
+Finished building: default.size.stdout
+ 
+
+20:00:17 Build Finished. 0 errors, 0 warnings. (took 203ms)
+

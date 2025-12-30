@@ -1,3 +1,4 @@
+"./Core/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o"
 "./Core/Src/main.o"
 "./Core/Src/my_lcd.o"
 "./Core/Src/stm32f4xx_hal_msp.o"

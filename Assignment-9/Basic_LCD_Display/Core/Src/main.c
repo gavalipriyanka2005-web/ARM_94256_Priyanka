@@ -103,9 +103,9 @@ int main(void)
 
         //Print on 1st line
         lcd16x2_i2c_setCursor(0, 0);   // Row 0, Col 0
-        lcd16x2_i2c_printf("WELCOME");
+        lcd16x2_i2c_printf("Welcome");
         lcd16x2_i2c_setCursor(1,0);   // Row 0, Col 0
-        lcd16x2_i2c_printf("STM32 LCD");
+        lcd16x2_i2c_printf("Sunbeam");
 
   while (1)
   {
