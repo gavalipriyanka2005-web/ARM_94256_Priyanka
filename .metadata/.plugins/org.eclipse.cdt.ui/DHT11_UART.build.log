@@ -1,0 +1,10 @@
+13:19:10 **** Incremental Build of configuration Debug for project DHT11_UART ****
+make -j12 all 
+arm-none-eabi-size  DHT11_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11908	     92	   2028	  14028	   36cc	DHT11_UART.elf
+Finished building: default.size.stdout
+ 
+
+13:19:10 Build Finished. 0 errors, 0 warnings. (took 208ms)
+
